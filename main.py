@@ -21,6 +21,11 @@ app.add_middleware(
 
 from fastapi import Body
 
+@app.get("/")
+def root():
+    return {"message": "Misinformation Detection API is live!"}
+
+
 @app.post("/verify-page")
 def verify_page(payload: dict = Body(...)):
     text = payload.get("text", "")
