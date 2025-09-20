@@ -1,4 +1,4 @@
-const BACKEND_BASE = "http://127.0.0.1:8000";
+const BACKEND_BASE = "https://misinformation-detection-qqak.onrender.com";
 const VERIFY_ENDPOINT = `${BACKEND_BASE}/verify`;
 const VERIFY_PAGE_ENDPOINT = `${BACKEND_BASE}/verify-page`;
 const CONCURRENCY = 5;
