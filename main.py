@@ -21,9 +21,15 @@ app.add_middleware(
 
 from fastapi import Body
 
-@app.get("/", methods=["GET", "HEAD"])
-def root():
+
+@app.get("/")
+def read_root():
     return {"message": "Misinformation Detection API is live!"}
+
+@app.head("/")
+def head_root():
+    # Can return empty response for health check
+    return {}
 
 
 
