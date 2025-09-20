@@ -9,6 +9,7 @@ import time
 
 from fastapi.middleware.cors import CORSMiddleware
 
+app = FastAPI(title="Misinformation Detection API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # Or restrict to your extension ID for security
@@ -17,7 +18,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app = FastAPI(title="Misinformation Detection API")
 
 from fastapi import Body
 
