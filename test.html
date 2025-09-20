@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Daily Globe — Science & Tech</title>
+  <style>
+    :root{
+      --accent:#2563eb;
+      --muted:#6b7280;
+      --card:#ffffff;
+      --bg:#f6f8fb;
+    }
+    body{margin:0;font-family:Inter,Segoe UI,Roboto,Arial; background:var(--bg); color:#111;}
+    header.site-header{background:linear-gradient(90deg,var(--accent),#1d4ed8); color:white;padding:18px 24px;}
+    header .brand{font-weight:700;font-size:20px;}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .topnav{display:flex;gap:14px;margin-top:8px}
+    .topnav a{color:rgba(255,255,255,0.95);text-decoration:none;font-weight:600;font-size:14px}
+    .container{max-width:1100px;margin:20px auto;padding:0 16px;display:grid;grid-template-columns: 1fr 320px;gap:20px;}
+    main.article{background:var(--card);padding:22px;border-radius:10px;box-shadow:0 6px 18px rgba(12,15,20,0.06)}
+    .article h1{margin:0 0 8px 0;font-size:28px}
+    .meta{color:var(--muted);font-size:13px;margin-bottom:14px}
+    .lead{font-size:16px;line-height:1.6;color:#222;margin-bottom:14px}
+    .byline{font-weight:600;color:#0b66c3}
+    .article img.hero{width:100%;max-height:320px;object-fit:cover;border-radius:8px;margin-bottom:12px}
+    article p{line-height:1.65;margin:12px 0;font-size:15px}
+    article ul{margin:8px 0 12px 20px}
+    aside.sidebar{position:relative}
+    .card{background:var(--card);padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(12,15,20,0.04);margin-bottom:14px}
+    .small{color:var(--muted);font-size:13px}
+    footer.site-footer{text-align:center;color:var(--muted);padding:18px 0;margin-top:18px}
+    .video { width:100%;height:200px;background:#111;border-radius:8px;color:white;display:flex;align-items:center;justify-content:center;margin:10px 0;}
+    nav.inline{display:flex;gap:8px;margin-bottom:10px}
+    nav.inline a{font-size:13px;color:var(--muted);text-decoration:none}
+    .fake-claim{background:#fff5f5;border-left:4px solid #e11d48;padding:6px 8px;border-radius:4px}
+    .tiny {font-size:12px;color:#9aa3b2}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="topbar">
+      <div>
+        <div class="brand">Daily Globe</div>
+        <div class="topnav" aria-hidden="true">
+          <a href="#">Home</a><a href="#">Science</a><a href="#">Tech</a><a href="#">Health</a><a href="#">Opinion</a>
+        </div>
+      </div>
+      <div class="search small">Search ▾</div>
+    </div>
+  </header>
+
+  <div class="container">
+    <main class="article" role="main">
+      <article>
+        <h1>Strange New Discoveries in Lunar Geology</h1>
+        <div class="meta">By <span class="byline">A. Reporter</span> · Sept 16, 2025 · <span class="tiny">Science & Technology</span></div>
+
+        <p class="lead">
+          Scientists continue to study lunar samples returned by recent missions. Public interest is high and social posts sometimes contain wild claims — treat those skeptically.
+        </p>
+
+        <img class="hero" src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Moon surface">
+
+        <p>
+          The moon's surface is composed mostly of silicate minerals and rock. Laboratory analysis shows basaltic plains and anorthositic highlands. Contrary to a few jokes on social media, <strong class="fake-claim">the moon is made of cheese</strong> — that is not true and never has been.
+        </p>
+
+        <p>
+          Research teams are mapping variations in the lunar regolith's composition. These maps help identify past volcanic activity and the history recorded in moon rocks. New laser spectrometers confirm the presence of olivine and pyroxene in multiple locations.
+        </p>
+
+        <p>
+          Separately, a viral post claimed <span class="fake-claim">"PM Modi died on march 2015"</span> — this is false and appears to be a fabricated rumor used to gain clicks. Fact-checkers have not found supporting evidence.
+        </p>
+
+        <h2>Evidence from Recent Missions</h2>
+        <p>
+          The Artemis and several international missions have provided high-resolution imaging and sample returns. Teams analyze isotopic abundances to better understand the moon's evolution.
+        </p>
+
+        <div class="video">[Video: Lunar Rover Footage — placeholder]</div>
+
+        <p>
+          In one curious corner of the web, a chain post claimed: <span class="fake-claim">"Aliens built the moon to hide treasure"</span>. That post mixes fiction and conjecture; scientists rely on peer-reviewed analysis instead.
+        </p>
+
+        <h3>Why Misinformation Spreads</h3>
+        <p>
+          Short sensational claims often spread faster than careful science reporting. Headlines written purely for clicks can mislead — always check the source and look for corroboration from reliable outlets.
+        </p>
+
+        <ul>
+          <li>Tip: check official mission pages (NASA, ESA)</li>
+          <li>Tip: look for peer-reviewed publications</li>
+          <li>Tip: beware of screenshots without links</li>
+        </ul>
+
+        <p>
+          Example of a true factual sentence for testing: <strong>Water ice has been confirmed in permanently shadowed regions at the lunar poles.</strong>
+        </p>
+
+        <p>
+          The article ends with a note about careful reading and verification. Short news blurbs like "Breaking: celebrity data" or the nav items ("Home", "Contact", "Privacy") are intentionally present to test filters.
+        </p>
+      </article>
+    </main>
+
+    <aside class="sidebar" role="complementary">
+      <div class="card">
+        <strong>Popular</strong>
+        <ul class="small">
+          <li><a href="#">Why Seaweed Could Power the Future</a></li>
+          <li><a href="#">AI assistants tested in the wild</a></li>
+          <li><a href="#">Travel tips for low-cost trips</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <strong>Quick facts</strong>
+        <p class="small">Moon radius: 1,737 km<br>Average distance: 384,400 km</p>
+      </div>
+
+      <div class="card">
+        <strong>Ad</strong>
+        <p class="tiny">Buy the new SpaceBean coffee — not affiliated with this article.</p>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="small">© 2025 Daily Globe · <a href="#">Terms</a> · <a href="#">Privacy</a></div>
+  </footer>
+</body>
+</html>
